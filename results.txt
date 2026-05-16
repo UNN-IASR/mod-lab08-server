@@ -1,0 +1,8 @@
+﻿Channels: 3, Applications: 100, Mu = 20
+
+lam	P0th		P0act	Pth		Pact	Qth		Qact	Ath		Aact	kth		kact
+***********************************************************************************
+System.Collections.Generic.List`1[System.Double]		0,6076	1,0000		0,0127	0,0000		0,9873	1,0000		9,87	9,03		0,49	0,55
+System.Collections.Generic.List`1[System.Double]		0,7168	1,0000		0,0044	0,0000		0,9956	1,0000		6,64	6,43		0,33	0,39
+System.Collections.Generic.List`1[System.Double]		0,7882	1,0000		0,0018	0,0000		0,9982	1,0000		4,75	4,63		0,24	0,28
+System.Collections.Generic.List`1[System.Double]		0,8188	1,0000		0,0011	0,0000		0,9989	1,0000		4,00	3,82		0,20	0,23
