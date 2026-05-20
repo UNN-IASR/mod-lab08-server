@@ -14,7 +14,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '9.x'
+        dotnet-version: '10.x'
     - name: Restore dependencies
       run: dotnet restore mod-lab08-server.slnx
     - name: Build
