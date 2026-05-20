@@ -16,8 +16,8 @@ jobs:
       with:
         dotnet-version: '10.x'
     - name: Restore dependencies
-      run: dotnet restore mod-lab08-server.slnx
+      run: dotnet restore mod-lab08-server.slnx -p:EnableWindowsTargeting=true
     - name: Build
-      run: dotnet build --no-restore mod-lab08-server.slnx 
+      run: dotnet build --no-restore mod-lab08-server.slnx -p:EnableWindowsTargeting=true
     - name: Test
       run: dotnet test --no-build --verbosity normal
