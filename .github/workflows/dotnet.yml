@@ -16,7 +16,7 @@ jobs:
       with:
         dotnet-version: '9.x'
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore mod-lab08-server.slnx
     - name: Build
       run: dotnet build --no-restore mod-lab08-server.slnx 
     - name: Test
