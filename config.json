@@ -1,0 +1,5 @@
+{
+    "poolSize": 3,
+    "processingTime": 500,
+    "requestInterval": 50
+}
