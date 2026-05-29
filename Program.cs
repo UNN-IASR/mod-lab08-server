@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading;
 using ScottPlot;
 
-namespace hz
+namespace Lab08
 {
     public class procEventArgs : EventArgs
     {
